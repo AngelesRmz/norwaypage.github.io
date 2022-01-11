@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39cea8fb1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <section class="section">
+            <div class="imgBx">
+                <img src="img/nor.jpg" class="active">
+                <img src="img/nor2.jpg" >
+                <img src="img/nor3.jpg" >
+                <img src="img/nor4.jpg" >
+            </div>
+            <header>
+                
+                <a href="#"><img class="logo" src="img/mountain.png" alt=""></a>
+                <ul>
+                    <li><a href="">Destinations</a></li>
+                    <li><a href="">Activities</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+                <div><img class="menu" src="img/lista.png" alt=""></div>
+                
+            </header>
+           
+            <div class="contenedor">
+                <div class="socialMedia">
+                    <div class="social-contenedor">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="text">
+                        <h4>EXPLORE</h4>
+                        <h1>Norway</h1>
+                    </div>
+                    <div class="slide-control">
+                        <ul id="menu1">
+                            <li"><span class="dot active" onclick="nextSlide(0)"></span></li>
+                            <li><span class="dot" onclick="nextSlide(1)"></span></li>
+                            <li><span class="dot" onclick="nextSlide(2)"></span></li>
+                            <li><span class="dot" onclick="nextSlide(3)"></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contenedor-bottom">
+                    <div class="more-container">
+                        <p class="seeMore">
+                            <a href=""><img src="img/up-arrow-svgrepo-com.svg" alt="">SEE MORE</a>
+                        </p>
+                    </div>
+                    <div class="locations-contenedor">
+                        <div class="locations-carrousel">
+                            <div class="locations-space">
+                                <div class="group-three">
+                                    <div class="location">
+                                        <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="city-name">
+                                            <h4>Trondheim</h4>
+                                            <p>Plan a trip</p>
+                                        </div>
+                                    </div>
+                                    <div class="location">
+                                        <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="city-name">
+                                            <h4>Geirangerfjorden</h4>
+                                            <p>Plan a trip</p>
+                                        </div>
+                                    </div>
+                                    <div class="location">
+                                        <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="city-name">
+                                            <h4>Lofoten</h4>
+                                            <p>Plan a trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="group-three">
+                                    <div class="location">
+                                        <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="city-name">
+                                            <h4>Oslo</h4>
+                                            <p>Plan a trip</p>
+                                        </div>
+                                    </div>
+                                    <div class="location">
+                                        <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="city-name">
+                                            <h4>Bergen</h4>
+                                            <p>Plan a trip</p>
+                                        </div>
+                                    </div>
+                                    <div class="location">
+                                        <div class="map-marker"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="city-name">
+                                            <h4>Odda</h4>
+                                            <p>Plan a trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slader-locations">
+                        <div class="sliders-container">
+                            <i class="fas fa-angle-left" class="arrowB" onclick="backCities()"></i>
+                            <i class="fas fa-angle-right" class="arrowN" onclick="nextCities()"></i>
+                        </div>
+                        <div class="number-slider">
+                            <p class="slideNow" data-target="1">01</p>
+                            <p class="totalSlide">/04</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+        <section id="activities">
+            <Header class="header-activities">
+                <h5 class="title">HUNDREDS OF</h5>
+                <h1 class="title">Activities for Everyone</h1>
+            </Header>
+            <article class="activities-container">
+                <div class="slider-back">
+                    <img src="img/up-arrow-svgrepo-com.svg" alt="">
+                    <p>BACK</p>
+                </div>
+                <div class="option-container">
+                    <div class="activity-container">
+                        <p>Hiking</p>
+                        <img src="img/activities/hiking2.jpg" alt="">
+                    </div>
+                    <div class="activity-container">
+                        <p>Sailing</p>
+                        <img src="img/activities/sailing2.jpg" alt="">
+                    </div>
+                    <div class="activity-container">
+                        <p>Skiing</p>
+                        <img src="img/activities/skiing.jpg" alt="">
+                    </div>
+                    <div class="activity-container">
+                        <p>Kayaking</p>
+                        <img src="img/activities/kayaking.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slider-next">
+                    <img src="img/up-arrow-svgrepo-com.svg" alt="">
+                    <p>NEXT</p>
+                </div>
+            </article>
+        </section>
+        <section class="aboutUs">
+            <Header class="header-activities">
+                <h5 class="title">ABOUT US</h5>
+                <h1 class="title">Our Philosophy</h1>
+            </Header>
+            <article class="about-container">
+                <div class="img-container">
+                    <img src="img/aboutus.jpg" alt="">
+                </div>
+                <div class="reasons-container">
+                    <div class="reason">
+                        <p>01</p>
+                        <div class="description-container">
+                            <p class="title-reason">Sustainable</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eligendi autem incidunt voluptas obcaecati debitis vel delectus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reason">
+                        <p>02</p>
+                        <div class="description-container">
+                            <p class="title-reason">Fair & Share</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eligendi autem incidunt voluptas obcaecati debitis vel delectus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reason">
+                        <p>03</p>
+                        <div class="description-container">
+                            <p class="title-reason">Experience</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eligendi autem incidunt voluptas obcaecati debitis vel delectus. deserunt libero enim exercitationem rerum veniam officiis tempore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+   
+
+    <script src="vendors/easings.min.js"></script>
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="slide-control">
+    <ul id="menu1">
+        <li data-menuanchor="section1"><span class="dot"><a href="#section-2">Section Two</a></span></li>
+    </ul>
+</div>
+
+<section id="section-2">
+
+</section> -->
