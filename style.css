@@ -237,23 +237,21 @@ header ul li a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+/*     
     transition: all .7s ease;
-    transform: translateX(0%);
-}
-
-.locations-space:hover{
-    transform: translateX(-50%);
+    transform: translateX(0%); */
 }
 
 .group-three{
     width: calc(100% / 2);
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
+
 
 .contenedor-bottom .locations-contenedor .location{
     width: 270px;
+    position: relative;
     display: flex;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
@@ -261,6 +259,14 @@ header ul li a{
     margin: 0 8px;
     border-radius: 5px;
     backdrop-filter: blur(5px);
+
+    transition: all .7s ease;
+    transform: translateX(0%);
+}
+
+
+.locations-space:hover .location{
+    transform: translateX(-320%);
 }
 
 .contenedor-bottom .locations-contenedor .location .map-marker{
